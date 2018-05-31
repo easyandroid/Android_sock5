@@ -24,7 +24,7 @@ public class ShadowsocksVpnThread extends Thread {
     private ShadowsocksVpnService vpnService ;
     String PATH ;
     public  boolean isRunning = true;
-    public LocalServerSocket serverSocket ;
+    public LocalServerSocket serverSocket;
 
     public ShadowsocksVpnThread(ShadowsocksVpnService vpnService) {
         this.vpnService = vpnService;
